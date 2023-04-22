@@ -60,5 +60,5 @@ end
 gem 'figaro'
 gem 'jsonapi-serializer'
 gem 'faraday'
-
+gem 'securerandom'
 
