@@ -8,8 +8,6 @@ class User < ApplicationRecord
   private
 
   def generate_api_key
-    begin
-      self.api_key = SecureRandom.hex
-    end while User.exists?(api_key: self.api_key)
-  end
+		self.api_key = SecureRandom.hex
+	end  
 end
