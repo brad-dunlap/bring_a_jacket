@@ -5,8 +5,9 @@ describe LocationService do
     describe '#get_location' do 
       it 'returns the lat and long of a location' do
         location = File.read('spec/fixtures/location.json')
+				api_key = ENV['MAPQUEST_API_KEY']
 
-        stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&location=denver,co").
+        stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{api_key}&location=denver,co").
           with(
             headers: {
               'Accept'=>'*/*',
@@ -31,7 +32,7 @@ describe LocationService do
 
         expect(location[:latLng][:lat]).to be_a(Float)
         expect(location[:latLng][:lat]).to eq(39.74001)
-				
+
         expect(location[:latLng][:lng]).to be_a(Float)
         expect(location[:latLng][:lng]).to eq(-104.99202)
       end
