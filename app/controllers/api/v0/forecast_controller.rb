@@ -1,6 +1,6 @@
 class Api::V0::ForecastController < ApplicationController
 	
-	def show
+	def index
 		location = params[:location]
 		weather = WeatherFacade.get_weather(location)
 		render json: ForecastSerializer.new(weather)

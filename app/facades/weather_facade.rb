@@ -2,12 +2,12 @@
 
 class WeatherFacade
   def self.get_weather(location)
-    latlong = LocationService.new.get_location(location)
+    latlong = LocationService.new.get_location(location).deep_symbolize_keys
     lat = latlong[:results][0][:locations][0][:latLng][:lat]
     long = latlong[:results][0][:locations][0][:latLng][:lng]
     weather_data = WeatherService.new.get_weather(lat, long)
 
-    current_weather = {
+		current_weather = {
       last_updated: weather_data[:current][:last_updated],
       temperature: weather_data[:current][:temp_f],
       feels_like: weather_data[:current][:feelslike_f],

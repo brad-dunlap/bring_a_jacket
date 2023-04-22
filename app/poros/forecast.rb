@@ -1,5 +1,5 @@
 class Forecast
-	attr_accessor :id, :forecast, :current_weather, :daily_weather, :hourly_weather
+	attr_accessor :id, :type, :forecast, :current_weather, :daily_weather, :hourly_weather
 
 	def initialize(id= "null", type = "forecast", current_weather, daily_weather, hourly_weather)
 		@id = id
