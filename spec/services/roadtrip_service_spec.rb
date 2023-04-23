@@ -22,6 +22,8 @@ describe 'RoadtripService' do
         roadtrip = RoadtripService.new.get_directions(origin, destination)
 
         expect(roadtrip).to be_a(Hash)
+				expect(roadtrip).to have_key(:route)
+				expect(roadtrip[:route]).to have_key(:formattedTime)
       end
     end
   end

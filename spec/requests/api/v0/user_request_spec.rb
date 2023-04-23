@@ -45,7 +45,7 @@ describe 'Users API' do
 				expect(JSON.parse(response.body)["errors"][0]).to eq("Password confirmation doesn't match Password")
 			end
 
-			it "returns an email if the user already exists" do
+			it "returns an error if the user already exists" do
 				User.destroy_all
 				post "/api/v0/users", params: user_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
 
