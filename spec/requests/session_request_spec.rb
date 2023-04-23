@@ -13,6 +13,7 @@ describe 'Sessions API' do
     before(:each) do
       User.destroy_all
       post "/api/v0/users", params: create_user_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+
       expect(response.status).to eq(201)
     end
 
@@ -25,7 +26,8 @@ describe 'Sessions API' do
       end
 
       it "logs in a user" do
-        post "/api/v0/sessions", params: login_user_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+        
+				post "/api/v0/sessions", params: login_user_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
         expect(response.status).to eq(200)
       end
     end
@@ -47,12 +49,14 @@ describe 'Sessions API' do
 
       it "throws an error if no email found" do
         post "/api/v0/sessions", params: wrong_email.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+
         expect(response.status).to eq(400)
         expect(JSON.parse(response.body)).to include('errors' => 'Invalid credentials')
       end
 
       it "throws an error if wrong password" do
         post "/api/v0/sessions", params: wrong_password.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+				
         expect(response.status).to eq(400)
         expect(JSON.parse(response.body)).to include('errors' => 'Invalid credentials')
       end

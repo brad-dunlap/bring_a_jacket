@@ -24,15 +24,15 @@ describe LocationService do
         expect(location_data[:results].length).to eq(1)
 
         result = location_data[:results][0]
+
         expect(result[:locations]).to be_a(Array)
         expect(result[:locations].length).to eq(1)
 
         location = result[:locations][0]
-        expect(location[:latLng]).to be_a(Hash)
 
+        expect(location[:latLng]).to be_a(Hash)
         expect(location[:latLng][:lat]).to be_a(Float)
         expect(location[:latLng][:lat]).to eq(39.74001)
-
         expect(location[:latLng][:lng]).to be_a(Float)
         expect(location[:latLng][:lng]).to eq(-104.99202)
       end

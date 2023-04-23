@@ -30,6 +30,7 @@ describe 'Users API' do
       it "creates a new user and generates an api key" do
 				User.destroy_all
 				post "/api/v0/users", params: user_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+
 				expect(response.status).to eq(201)
 				expect(JSON.parse(response.body)["data"]["type"]).to eq("users")
 				expect(User.count).to eq(1)
@@ -39,6 +40,7 @@ describe 'Users API' do
 
       it "returns an error if passwords do not match" do
 				post "/api/v0/users", params: invalid_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+
 				expect(response.status).to eq(400)
 				expect(JSON.parse(response.body)["errors"][0]).to eq("Password confirmation doesn't match Password")
 			end
@@ -46,9 +48,11 @@ describe 'Users API' do
 			it "returns an email if the user already exists" do
 				User.destroy_all
 				post "/api/v0/users", params: user_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+
 				expect(response.status).to eq(201)
 
 				post "/api/v0/users", params: user_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+
 				expect(response.status).to eq(400)
 				expect(JSON.parse(response.body)["errors"][0]).to eq("Email has already been taken")
 			end
@@ -56,6 +60,7 @@ describe 'Users API' do
 			it "returns an error if a param is missing" do
 				User.destroy_all
 				post "/api/v0/users", params: missing_params.to_json, headers: { 'CONTENT_TYPE' => 'application/json' }
+				
 				expect(response.status).to eq(400)
 				expect(JSON.parse(response.body)["errors"][0]).to eq("Email can't be blank")
 			end
