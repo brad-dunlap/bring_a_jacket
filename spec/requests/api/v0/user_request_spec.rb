@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe 'Forecast API' do
+describe 'Users API' do
   describe "POST Api/v0/users" do
     context "with valid params" do
       let(:user_params) do

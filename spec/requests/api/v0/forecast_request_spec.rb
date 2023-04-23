@@ -35,7 +35,7 @@ describe 'Forecast API' do
 
 			parsed = JSON.parse(response.body, symbolize_names: true)
 			x = parsed[:data][:attributes]
-			
+
 			expect(x.keys).to match_array([:current_weather, :daily_weather, :hourly_weather])
 			expect(x[:current_weather].keys).to match_array([:last_updated, :temperature, :feels_like, :humidity, :uvi, :visibility, :condition, :icon])
 			expect(x[:daily_weather].first.keys).to match_array([:date, :sunrise, :sunset, :max_temp, :min_temp, :condition, :icon])

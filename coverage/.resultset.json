@@ -348,6 +348,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -424,7 +425,7 @@
           1,
           null,
           1,
-          3,
+          6,
           null,
           null
         ]
@@ -593,6 +594,7 @@
           null,
           1,
           1,
+          null,
           1,
           1,
           1,
@@ -660,6 +662,71 @@
           null,
           null,
           1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/3mod/projects/bring_a_jacket/spec/requests/session_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          3,
+          3,
+          3,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           1,
           1,
           1,
@@ -813,9 +880,9 @@
         "lines": [
           1,
           1,
+          8,
+          8,
           5,
-          5,
-          2,
           null,
           3,
           null,
@@ -824,7 +891,7 @@
           1,
           null,
           1,
-          5,
+          8,
           null,
           null
         ]
@@ -837,8 +904,22 @@
           1,
           null
         ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/3mod/projects/bring_a_jacket/app/controllers/api/v0/sessions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          3,
+          1,
+          null,
+          2,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1682270596
+    "timestamp": 1682278316
   }
 }
