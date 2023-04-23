@@ -17,6 +17,7 @@ class WeatherFacade
       condition: weather_data[:current][:condition][:text],
       icon: weather_data[:current][:condition][:icon]
     }
+
     daily_weather = weather_data[:forecast][:forecastday].map do |day|
       {
         date: day[:date],
@@ -28,6 +29,7 @@ class WeatherFacade
         icon: day[:day][:condition][:icon]
       }
     end
+
     hourly_weather = weather_data[:forecast][:forecastday].first[:hour].map do |hour|
       {
         time: hour[:time],
@@ -36,6 +38,7 @@ class WeatherFacade
         icon: hour[:condition][:icon]
       }
     end
+		
     Forecast.new(current_weather, daily_weather, hourly_weather)
   end
 end
