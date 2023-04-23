@@ -1,0 +1,1329 @@
+{
+	"route": {
+			"sessionId": "ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car",
+			"realTime": 146767,
+			"distance": 2792.183,
+			"time": 144654,
+			"formattedTime": "40:10:54",
+			"hasHighway": true,
+			"hasTollRoad": true,
+			"hasBridge": true,
+			"hasSeasonalClosure": false,
+			"hasTunnel": true,
+			"hasFerry": false,
+			"hasUnpaved": false,
+			"hasTimedRestriction": false,
+			"hasCountryCross": false,
+			"legs": [
+					{
+							"index": 0,
+							"hasTollRoad": true,
+							"hasHighway": true,
+							"hasBridge": true,
+							"hasUnpaved": false,
+							"hasTunnel": true,
+							"hasSeasonalClosure": false,
+							"hasFerry": false,
+							"hasCountryCross": false,
+							"hasTimedRestriction": false,
+							"distance": 2792.183,
+							"time": 146767,
+							"formattedTime": "40:46:07",
+							"origIndex": 0,
+							"origNarrative": "",
+							"destIndex": 0,
+							"destNarrative": "",
+							"maneuvers": [
+									{
+											"index": 0,
+											"distance": 0.0516,
+											"narrative": "Head toward Church St on Chambers St. Go for 272 ft.",
+											"time": 22,
+											"direction": 2,
+											"directionName": "Northwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:22",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.714532,
+													"lng": -74.007119
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"Chambers St"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.714532,-74.007119|marker-1||40.7149,-74.00797|marker-2||&center=40.714715999999996,-74.0075445&defaultMarker=none&zoom=16&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 1,
+											"distance": 0.2715,
+											"narrative": "Turn right onto Church St. Go for 0.3 mi.",
+											"time": 92,
+											"direction": 3,
+											"directionName": "Northeast",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:01:32",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.7149,
+													"lng": -74.00797
+											},
+											"turnType": 2,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"Church St"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.7149,-74.00797|marker-2||40.71829999999999,-74.00539|marker-3||&center=40.7166,-74.00668&defaultMarker=none&zoom=14&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 2,
+											"distance": 0.3741,
+											"narrative": "Keep left onto 6th Ave. Go for 0.4 mi.",
+											"time": 150,
+											"direction": 1,
+											"directionName": "North",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:02:30",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.71829999999999,
+													"lng": -74.00539
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"6th Ave",
+													"Avenue of the Americas"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.71829999999999,-74.00539|marker-3||40.72361999999998,-74.00481000000002|marker-4||&center=40.72095999999999,-74.00510000000001&defaultMarker=none&zoom=14&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 3,
+											"distance": 0.0696,
+											"narrative": "Turn left onto Watts St. Go for 367 ft.",
+											"time": 58,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:58",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.72361999999998,
+													"lng": -74.00481000000002
+											},
+											"turnType": 6,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"Watts St"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.72361999999998,-74.00481000000002|marker-4||40.723779999999984,-74.00610000000003|marker-5||&center=40.72369999999998,-74.00545500000003&defaultMarker=none&zoom=16&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 4,
+											"distance": 0.9072,
+											"narrative": "Turn right onto Holland Tunnel toward Holland Tunnel. Go for 0.9 mi.",
+											"time": 367,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:06:07",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.723779999999984,
+													"lng": -74.00610000000003
+											},
+											"turnType": 2,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"Holland Tunnel"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.723779999999984,-74.00610000000003|marker-5||40.72762999999998,-74.02121|marker-6||&center=40.72570499999998,-74.01365500000001&defaultMarker=none&zoom=13&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 5,
+											"distance": 1.0184,
+											"narrative": "Continue on Holland Tunnel. Go for 1.0 mi.",
+											"time": 315,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:05:15",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.72762999999998,
+													"lng": -74.02121
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"Holland Tunnel"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.72762999999998,-74.02121|marker-6||40.73154,-74.03943999999998|marker-7||&center=40.729584999999986,-74.03032499999999&defaultMarker=none&zoom=13&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 6,
+											"distance": 0.307,
+											"narrative": "Continue on 14th St. Go for 0.3 mi.",
+											"time": 53,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:53",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.73154,
+													"lng": -74.03943999999998
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"14th St"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.73154,-74.03943999999998|marker-7||40.73203000000002,-74.04518999999998|marker-8||&center=40.731785000000016,-74.04231499999997&defaultMarker=none&zoom=14&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 7,
+											"distance": 1.1918,
+											"narrative": "Keep left onto RT-139 W toward US-1-9/Pulaski Skyway/I-280/Kennedy Blvd/Jersey City. Go for 1.2 mi.",
+											"time": 176,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:02:56",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.73203000000002,
+													"lng": -74.04518999999998
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"RT-139"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.73203000000002,-74.04518999999998|marker-8||40.73928000000002,-74.06330000000007|marker-9||&center=40.73565500000002,-74.05424500000002&defaultMarker=none&zoom=12&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 8,
+											"distance": 0.051,
+											"narrative": "Continue on US-1/US-9 (1 and 9). Go for 269 ft.",
+											"time": 8,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:08",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.73928000000002,
+													"lng": -74.06330000000007
+											},
+											"turnType": 7,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"US-1",
+													"US-9",
+													"US-1-9",
+													"1 and 9"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.73928000000002,-74.06330000000007|marker-9||40.739310000000025,-74.06426000000008|marker-10||&center=40.73929500000003,-74.06378000000007&defaultMarker=none&zoom=16&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 9,
+											"distance": 0.8121,
+											"narrative": "Take the exit toward US-1-9-TRUCK/Newark/I-280 onto US-1-TRUCK/US-9-TRUCK. Go for 0.8 mi.",
+											"time": 125,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:02:05",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.739310000000025,
+													"lng": -74.06426000000008
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"US-1-TRUCK",
+													"US-9-TRUCK",
+													"US-1-9-TRUCK"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.739310000000025,-74.06426000000008|marker-10||40.739250000000034,-74.07406000000007|marker-11||&center=40.73928000000003,-74.06916000000007&defaultMarker=none&zoom=13&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 10,
+											"distance": 1.3055,
+											"narrative": "Keep left onto Newark-Jersey City Tpke (RT-7 W) toward Kearny/I-280/NJ Tpke. Go for 1.3 mi.",
+											"time": 134,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:02:14",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.739250000000034,
+													"lng": -74.07406000000007
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"RT-7",
+													"Newark-Jersey City Tpke",
+													"Wittpenn Brg",
+													"Newark Tpke"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.739250000000034,-74.07406000000007|marker-11||40.74675000000001,-74.09616000000008|marker-12||&center=40.74300000000002,-74.08511000000007&defaultMarker=none&zoom=12&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 11,
+											"distance": 1.3012,
+											"narrative": "Keep left onto Newark-Jersey City Tpke (CR-508) toward New Jersey Turnpike/I-280/Harrison/Newark. Go for 1.3 mi.",
+											"time": 137,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:02:17",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.74675000000001,
+													"lng": -74.09616000000008
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"CR-508",
+													"Newark-Jersey City Tpke",
+													"Newark Tpke"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.74675000000001,-74.09616000000008|marker-12||40.74961999999999,-74.1200100000001|marker-13||&center=40.74818500000001,-74.10808500000009&defaultMarker=none&zoom=12&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 12,
+											"distance": 16.6689,
+											"narrative": "Take ramp onto I-280 W. Go for 16.7 mi.",
+											"time": 1074,
+											"direction": 2,
+											"directionName": "Northwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:17:54",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.74961999999999,
+													"lng": -74.1200100000001
+											},
+											"turnType": 12,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-280"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.74961999999999,-74.1200100000001|marker-13||40.85892000000005,-74.36498000000022|marker-14||&center=40.80427000000002,-74.24249500000016&defaultMarker=none&zoom=9&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 13,
+											"distance": 46.3294,
+											"narrative": "Take the left exit toward Del Water Gap onto I-80 W (I-80 Express Lane). Go for 46.3 mi.",
+											"time": 2626,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:43:46",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.85892000000005,
+													"lng": -74.36498000000022
+											},
+											"turnType": 15,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"I-80 Express Lane",
+													"US-206",
+													"Christopher Columbus Hwy",
+													"Delaware Water Gap Brg"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.85892000000005,-74.36498000000022|marker-14||40.977020000000245,-75.13539000000048|marker-15||&center=40.917970000000146,-74.75018500000036&defaultMarker=none&zoom=7&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 14,
+											"distance": 310.8012,
+											"narrative": "Continue on I-80 (Delaware Water Gap Brg). Go for 311 mi.",
+											"time": 16534,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "04:35:34",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 40.977020000000245,
+													"lng": -75.13539000000048
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"Delaware Water Gap Brg",
+													"US-209",
+													"US-220",
+													"Appalachian Thwy",
+													"US-220-ALT",
+													"PA-66",
+													"ZH Confair Memorial Hwy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=40.977020000000245,-75.13539000000048|marker-15||41.184990000000106,-80.51871000000098|marker-16||&center=41.081005000000175,-77.82705000000072&defaultMarker=none&zoom=4&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 15,
+											"distance": 17.4916,
+											"narrative": "Continue on I-80. Go for 17.5 mi.",
+											"time": 963,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:16:03",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.184990000000106,
+													"lng": -80.51871000000098
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"OH-11"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.184990000000106,-80.51871000000098|marker-16||41.11090000000011,-80.82864000000092|marker-17||&center=41.14794500000011,-80.67367500000094&defaultMarker=none&zoom=8&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 16,
+											"distance": 219.3894,
+											"narrative": "Take the exit onto I-80 W (Ohio Tpke). Go for 219 mi.",
+											"time": 11487,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "03:11:27",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.11090000000011,
+													"lng": -80.82864000000092
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"Ohio Tpke",
+													"I-90"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.11090000000011,-80.82864000000092|marker-17||41.62865000000026,-84.80574000000043|marker-18||&center=41.36977500000019,-82.81719000000066&defaultMarker=none&zoom=5&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 17,
+											"distance": 135.5962,
+											"narrative": "Continue on I-80/I-90 (Indiana Toll Rd). Go for 136 mi.",
+											"time": 7141,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "01:59:01",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.62865000000026,
+													"lng": -84.80574000000043
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"I-90",
+													"Indiana Toll Rd",
+													"Indiana East-West",
+													"Indiana East-West Toll Rd"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.62865000000026,-84.80574000000043|marker-18||41.59178000000027,-87.22864000000077|marker-19||&center=41.61021500000027,-86.0171900000006&defaultMarker=none&zoom=6&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 18,
+											"distance": 16.142,
+											"narrative": "Take exit 21 toward IN-51 S onto I-80 W/I-94 W (Borman Expy). Go for 16.1 mi.",
+											"time": 1103,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:18:23",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.59178000000027,
+													"lng": -87.22864000000077
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"I-94",
+													"Borman Expy",
+													"US-6",
+													"Tri State Expy",
+													"Tri State Hwy",
+													"US-41"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.59178000000027,-87.22864000000077|marker-19||41.577140000000284,-87.52518000000077|marker-20||&center=41.58446000000028,-87.37691000000078&defaultMarker=none&zoom=9&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 19,
+											"distance": 1.3366,
+											"narrative": "Continue on I-80/I-94 (Kingery Expy W). Go for 1.3 mi.",
+											"time": 87,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:01:27",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.577140000000284,
+													"lng": -87.52518000000077
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"I-94",
+													"US-6",
+													"Kingery Expy W",
+													"Tri-State Tlwy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.577140000000284,-87.52518000000077|marker-20||41.57788000000028,-87.55098000000075|marker-21||&center=41.57751000000028,-87.53808000000076&defaultMarker=none&zoom=12&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 20,
+											"distance": 6.1833,
+											"narrative": "Continue on I-80 (Tri-State Tlwy). Go for 6.2 mi.",
+											"time": 398,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:06:38",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.57788000000028,
+													"lng": -87.55098000000075
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"US-6",
+													"Tri-State Tlwy",
+													"I-294"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.57788000000028,-87.55098000000075|marker-21||41.578240000000264,-87.67045000000078|marker-22||&center=41.57806000000027,-87.61071500000077&defaultMarker=none&zoom=10&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 21,
+											"distance": 145.596,
+											"narrative": "Take exit 5 toward Iowa onto I-80 W. Go for 146 mi.",
+											"time": 7746,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "02:09:06",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.578240000000264,
+													"lng": -87.67045000000078
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"Moline Expy W"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.578240000000264,-87.67045000000078|marker-22||41.440329999999875,-90.32186000000073|marker-23||&center=41.50928500000007,-88.99615500000075&defaultMarker=none&zoom=5&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 22,
+											"distance": 10.4328,
+											"narrative": "Take the exit toward Davenport onto I-80 W (Chicago-Kansas City Expy). Go for 10.4 mi.",
+											"time": 547,
+											"direction": 1,
+											"directionName": "North",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:09:07",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.440329999999875,
+													"lng": -90.32186000000073
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"IL-110",
+													"Chicago-Kansas City Expy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.440329999999875,-90.32186000000073|marker-23||41.57956999999988,-90.36453000000076|marker-24||&center=41.509949999999876,-90.34319500000075&defaultMarker=none&zoom=9&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 23,
+											"distance": 182.4837,
+											"narrative": "Continue on I-80. Go for 182 mi.",
+											"time": 9604,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "02:40:04",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.57956999999988,
+													"lng": -90.36453000000076
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"US-61",
+													"US-6",
+													"IA-38",
+													"US-65",
+													"I-35"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.57956999999988,-90.36453000000076|marker-24||41.59695999999982,-93.77723000000121|marker-25||&center=41.58826499999985,-92.07088000000098&defaultMarker=none&zoom=5&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 24,
+											"distance": 122.6605,
+											"narrative": "Take the exit toward Omaha onto I-80 W. Go for 123 mi.",
+											"time": 6341,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "01:45:41",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.59695999999982,
+													"lng": -93.77723000000121
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"US-6",
+													"I-80 Express Lane"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.59695999999982,-93.77723000000121|marker-25||41.231879999999926,-95.91110000000134|marker-26||&center=41.41441999999987,-94.84416500000128&defaultMarker=none&zoom=6&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 25,
+											"distance": 351.3115,
+											"narrative": "Continue on I-80. Go for 351 mi.",
+											"time": 17151,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "04:45:51",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.231879999999926,
+													"lng": -95.91110000000134
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-80",
+													"US-77",
+													"NE-10"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.231879999999926,-95.91110000000134|marker-26||41.035900000000154,-102.13713000000153|marker-27||&center=41.13389000000004,-99.02411500000144&defaultMarker=none&zoom=4&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 26,
+											"distance": 3.6972,
+											"narrative": "Take exit 102 toward Denver onto I-76 S. Go for 3.7 mi.",
+											"time": 182,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:03:02",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.035900000000154,
+													"lng": -102.13713000000153
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-76"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.035900000000154,-102.13713000000153|marker-27||41.00243000000016,-102.19022000000157|marker-28||&center=41.01916500000016,-102.16367500000155&defaultMarker=none&zoom=11&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 27,
+											"distance": 184.2465,
+											"narrative": "Continue on I-76. Go for 184 mi.",
+											"time": 9063,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "02:31:03",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 41.00243000000016,
+													"lng": -102.19022000000157
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-76",
+													"US-6",
+													"CO-52",
+													"US-34",
+													"US-85"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=41.00243000000016,-102.19022000000157|marker-28||39.78708,-105.07733000000178|marker-29||&center=40.39475500000008,-103.63377500000168&defaultMarker=none&zoom=5&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 28,
+											"distance": 270.0635,
+											"narrative": "Continue on I-70. Go for 270 mi.",
+											"time": 14469,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "04:01:09",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 39.78708,
+													"lng": -105.07733000000178
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-70",
+													"US-40",
+													"Lariat Loop Scenic and Historic Bywy",
+													"US-6",
+													"Eisenhower Memorial Tunnel",
+													"CO-9",
+													"US-24",
+													"US-50",
+													"Dinosaur Diamond Prehistoric Hwy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=39.78708,-105.07733000000178|marker-29||39.194240000000185,-109.05124000000362|marker-30||&center=39.49066000000009,-107.0642850000027&defaultMarker=none&zoom=5&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 29,
+											"distance": 231.2862,
+											"narrative": "Continue on I-70 (Dinosaur Diamond Prehistoric Hwy). Go for 231 mi.",
+											"time": 11909,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "03:18:29",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 39.194240000000185,
+													"lng": -109.05124000000362
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-70",
+													"US-6",
+													"US-50",
+													"Dinosaur Diamond Prehistoric Hwy",
+													"US-191",
+													"US-89"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=39.194240000000185,-109.05124000000362|marker-30||38.5799600000004,-112.59853000000369|marker-31||&center=38.88710000000029,-110.82488500000366&defaultMarker=none&zoom=5&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 30,
+											"distance": 132.9231,
+											"narrative": "Take the left exit toward Las Vegas onto I-15 S. Go for 133 mi.",
+											"time": 6131,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "01:42:11",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 38.5799600000004,
+													"lng": -112.59853000000369
+											},
+											"turnType": 15,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15",
+													"Zion Park Scenic Bywy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=38.5799600000004,-112.59853000000369|marker-31||37.00005000000062,-113.62431000000385|marker-32||&center=37.790005000000505,-113.11142000000376&defaultMarker=none&zoom=6&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 31,
+											"distance": 29.3554,
+											"narrative": "Continue on I-15 (Veterans Memorial Hwy). Go for 29.4 mi.",
+											"time": 1656,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:27:36",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 37.00005000000062,
+													"lng": -113.62431000000385
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15",
+													"Veterans Memorial Hwy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=37.00005000000062,-113.62431000000385|marker-32||36.817920000000534,-114.05006000000394|marker-33||&center=36.90898500000058,-113.8371850000039&defaultMarker=none&zoom=8&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 32,
+											"distance": 81.5276,
+											"narrative": "Continue on I-15. Go for 81.5 mi.",
+											"time": 4024,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "01:07:04",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 36.817920000000534,
+													"lng": -114.05006000000394
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15",
+													"US-93"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=36.817920000000534,-114.05006000000394|marker-33||36.167090000000584,-115.16000000000409|marker-34||&center=36.49250500000056,-114.605030000004&defaultMarker=none&zoom=6&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 33,
+											"distance": 2.5681,
+											"narrative": "Keep left onto I-15 HOV Ln. Go for 2.6 mi.",
+											"time": 140,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:02:20",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 36.167090000000584,
+													"lng": -115.16000000000409
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15 HOV Ln"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=36.167090000000584,-115.16000000000409|marker-34||36.13452000000058,-115.17936000000408|marker-35||&center=36.15080500000058,-115.16968000000409&defaultMarker=none&zoom=11&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 34,
+											"distance": 0.3573,
+											"narrative": "Continue on I-15. Go for 0.4 mi.",
+											"time": 19,
+											"direction": 4,
+											"directionName": "South",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:19",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 36.13452000000058,
+													"lng": -115.17936000000408
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=36.13452000000058,-115.17936000000408|marker-35||36.129500000000576,-115.18076000000406|marker-36||&center=36.13201000000058,-115.18006000000406&defaultMarker=none&zoom=14&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 35,
+											"distance": 1.8741,
+											"narrative": "Keep left onto I-15 (I-15 HOV Ln). Go for 1.9 mi.",
+											"time": 102,
+											"direction": 4,
+											"directionName": "South",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:01:42",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 36.129500000000576,
+													"lng": -115.18076000000406
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15",
+													"I-15 HOV Ln"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=36.129500000000576,-115.18076000000406|marker-36||36.10238000000057,-115.1808400000041|marker-37||&center=36.11594000000058,-115.18080000000407&defaultMarker=none&zoom=12&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 36,
+											"distance": 2.6626,
+											"narrative": "Keep left onto I-15 (I-15 HOV Ln) toward Tropicana Ave East. Go for 2.7 mi.",
+											"time": 146,
+											"direction": 4,
+											"directionName": "South",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:02:26",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 36.10238000000057,
+													"lng": -115.1808400000041
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15",
+													"I-15 HOV Ln"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=36.10238000000057,-115.1808400000041|marker-37||36.063840000000575,-115.18094000000413|marker-38||&center=36.08311000000057,-115.18089000000411&defaultMarker=none&zoom=11&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 37,
+											"distance": 34.8875,
+											"narrative": "Keep left onto I-15 (I-15 HOV Ln). Go for 34.9 mi.",
+											"time": 1812,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:30:12",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 36.063840000000575,
+													"lng": -115.18094000000413
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15",
+													"I-15 HOV Ln"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=36.063840000000575,-115.18094000000413|marker-38||35.60750000000068,-115.39139000000445|marker-39||&center=35.835670000000626,-115.28616500000429&defaultMarker=none&zoom=7&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 38,
+											"distance": 169.8966,
+											"narrative": "Continue on I-15. Go for 170 mi.",
+											"time": 9098,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "02:31:38",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 35.60750000000068,
+													"lng": -115.39139000000445
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15",
+													"Barstow Fwy",
+													"Mojave Fwy",
+													"CA-18",
+													"Historic Route 66"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=35.60750000000068,-115.39139000000445|marker-39||34.235530000000885,-117.42403000000493|marker-40||&center=34.92151500000078,-116.4077100000047&defaultMarker=none&zoom=5&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 39,
+											"distance": 14.7762,
+											"narrative": "Keep left onto I-15 S toward Los Angeles/San Diego. Go for 14.8 mi.",
+											"time": 797,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:13:17",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.235530000000885,
+													"lng": -117.42403000000493
+											},
+											"turnType": 17,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-15",
+													"Ontario Fwy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=34.235530000000885,-117.42403000000493|marker-40||34.07132000000088,-117.54506000000494|marker-41||&center=34.15342500000088,-117.48454500000494&defaultMarker=none&zoom=9&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 40,
+											"distance": 39.0091,
+											"narrative": "Take exit 109A toward Los Angeles onto I-10 W (San Bernardino Fwy). Go for 39.0 mi.",
+											"time": 2402,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:40:02",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.07132000000088,
+													"lng": -117.54506000000494
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"I-10",
+													"San Bernardino Fwy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=34.07132000000088,-117.54506000000494|marker-41||34.05549000000095,-118.19868000000507|marker-42||&center=34.06340500000091,-117.871870000005&defaultMarker=none&zoom=7&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 41,
+											"distance": 1.6603,
+											"narrative": "Continue on San Bernardino Fwy toward Los Angeles/US-101/Sacramento/I-5 N. Go for 1.7 mi.",
+											"time": 162,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:02:42",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.05549000000095,
+													"lng": -118.19868000000507
+											},
+											"turnType": 7,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"San Bernardino Fwy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=34.05549000000095,-118.19868000000507|marker-42||34.05274000000095,-118.22596000000514|marker-43||&center=34.05411500000095,-118.2123200000051&defaultMarker=none&zoom=12&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 42,
+											"distance": 0.4983,
+											"narrative": "Continue on US-101 (Santa Ana Fwy). Go for 0.5 mi.",
+											"time": 57,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:57",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.05274000000095,
+													"lng": -118.22596000000514
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"US-101",
+													"Santa Ana Fwy"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=34.05274000000095,-118.22596000000514|marker-43||34.05391000000096,-118.23455000000513|marker-44||&center=34.05332500000095,-118.23025500000514&defaultMarker=none&zoom=14&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 43,
+											"distance": 0.1964,
+											"narrative": "Take exit 2B toward Alameda St/Union Station. Go for 0.2 mi.",
+											"time": 34,
+											"direction": 7,
+											"directionName": "West",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:34",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.05391000000096,
+													"lng": -118.23455000000513
+											},
+											"turnType": 14,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=34.05391000000096,-118.23455000000513|marker-44||34.05452000000097,-118.23785000000514|marker-45||&center=34.054215000000966,-118.23620000000514&defaultMarker=none&zoom=15&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 44,
+											"distance": 0.233,
+											"narrative": "Continue on Arcadia St. Go for 0.2 mi.",
+											"time": 48,
+											"direction": 2,
+											"directionName": "Northwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:48",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.05452000000097,
+													"lng": -118.23785000000514
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"Arcadia St"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=34.05452000000097,-118.23785000000514|marker-45||34.056480000000974,-118.24115000000513|marker-46||&center=34.055500000000976,-118.23950000000514&defaultMarker=none&zoom=15&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 45,
+											"distance": 0.3094,
+											"narrative": "Turn left onto N Spring St. Go for 0.3 mi.",
+											"time": 65,
+											"direction": 6,
+											"directionName": "Southwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:01:05",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.056480000000974,
+													"lng": -118.24115000000513
+											},
+											"turnType": 6,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"N Spring St"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=34.056480000000974,-118.24115000000513|marker-46||34.05294000000098,-118.24447000000512|marker-47||&center=34.05471000000098,-118.24281000000514&defaultMarker=none&zoom=14&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 46,
+											"distance": 0.0708,
+											"narrative": "Turn right onto W 1st St. Go for 374 ft.",
+											"time": 12,
+											"direction": 2,
+											"directionName": "Northwest",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:12",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.05294000000098,
+													"lng": -118.24447000000512
+											},
+											"turnType": 2,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": [
+													"W 1st St"
+											],
+											"mapUrl": "https://www.mapquestapi.com/staticmap/v5/map?key=8G2DN7yCU8Cx4dlEVID16efZOc8jwIJJ&size=225,160&locations=34.05294000000098,-118.24447000000512|marker-47||34.05357300000098,-118.24544800000513|marker-48||&center=34.053256500000984,-118.24495900000512&defaultMarker=none&zoom=16&session=ABEB5wcAAGwAAAAQAAAAIAAAAAsCAAB42mPgZmJgZGJgYGDPSC1KtUrO7Z9UJgnkMnxOt6znsMqK955_63OMD5DeAaQZsACYRtP_P6RAfMacEAmm-UKvtJOdzSN2AOkmIM2AA7jPOzzdlAfI-OG4cpeAkA6DF5AtLMDA4ABT4cGlwOQAciALEwMzIwcHg4AAC1iCkYGDoYGDAUg6AAWYGAgAAYQKFkGIfhiAslgcEapZkFwA0c6IxGkAhRiHAtgdHcxwURwWI3M4wKQC0LkdYEugoowMLA0KKF6AcBwgLCYlAaDhHBJAAUUDAYgcEwdQP0JLQwNEPQfE9Q0XzbA4BaQI4Uo09x5wEWIAAP0eLnsj9haR:car"
+									},
+									{
+											"index": 47,
+											"distance": 0,
+											"narrative": "Arrive at W 1st St.",
+											"time": 0,
+											"direction": 0,
+											"directionName": "None",
+											"signs": [],
+											"maneuverNotes": [],
+											"formattedTime": "00:00:00",
+											"transportMode": "car",
+											"startPoint": {
+													"lat": 34.05357300000098,
+													"lng": -118.24544800000513
+											},
+											"turnType": 0,
+											"attributes": 0,
+											"iconUrl": "",
+											"streets": []
+									}
+							]
+					}
+			],
+			"options": {
+					"routeType": "FASTEST",
+					"enhancedNarrative": false,
+					"doReverseGeocode": false,
+					"narrativeType": "text",
+					"walkingSpeed": -1,
+					"highwayEfficiency": 22,
+					"avoids": false,
+					"generalize": -1,
+					"shapeFormat": "raw",
+					"unit": "M",
+					"locale": "en_US",
+					"useTraffic": false,
+					"timeType": 0,
+					"dateType": 0,
+					"manMaps": true,
+					"sideOfStreetDisplay": true
+			},
+			"boundingBox": {
+					"ul": {
+							"lat": 41.75692000000031,
+							"lng": -118.24544800000513
+					},
+					"lr": {
+							"lat": 34.052650000000945,
+							"lng": -74.00481000000002
+					}
+			},
+			"name": "I-80 and I-70",
+			"maxRoutes": "",
+			"locations": [
+					{
+							"street": "",
+							"adminArea6": "",
+							"adminArea6Type": "Neighborhood",
+							"adminArea5": "New York",
+							"adminArea5Type": "City",
+							"adminArea4": "New York",
+							"adminArea4Type": "County",
+							"adminArea3": "NY",
+							"adminArea3Type": "State",
+							"adminArea1": "US",
+							"adminArea1Type": "Country",
+							"postalCode": "",
+							"geocodeQualityCode": "A5XAX",
+							"geocodeQuality": "CITY",
+							"dragPoint": false,
+							"sideOfStreet": "N",
+							"linkId": "0",
+							"unknownInput": "",
+							"type": "s",
+							"latLng": {
+									"lat": 40.71453,
+									"lng": -74.00712
+							},
+							"displayLatLng": {
+									"lat": 40.71453,
+									"lng": -74.00712
+							},
+							"mapUrl": ""
+					},
+					{
+							"street": "",
+							"adminArea6": "",
+							"adminArea6Type": "Neighborhood",
+							"adminArea5": "Los Angeles",
+							"adminArea5Type": "City",
+							"adminArea4": "Los Angeles",
+							"adminArea4Type": "County",
+							"adminArea3": "CA",
+							"adminArea3Type": "State",
+							"adminArea1": "US",
+							"adminArea1Type": "Country",
+							"postalCode": "",
+							"geocodeQualityCode": "A5XAX",
+							"geocodeQuality": "CITY",
+							"dragPoint": false,
+							"sideOfStreet": "N",
+							"linkId": "0",
+							"unknownInput": "",
+							"type": "s",
+							"latLng": {
+									"lat": 34.05357,
+									"lng": -118.24545
+							},
+							"displayLatLng": {
+									"lat": 34.05357,
+									"lng": -118.24545
+							},
+							"mapUrl": ""
+					}
+			],
+			"locationSequence": [
+					0,
+					1
+			]
+	},
+	"info": {
+			"statuscode": 0,
+			"copyright": {
+					"text": "© 2022 MapQuest, Inc.",
+					"imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+					"imageAltText": "© 2022 MapQuest, Inc."
+			},
+			"messages": []
+	}
+}
