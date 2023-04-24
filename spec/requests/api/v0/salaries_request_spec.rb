@@ -36,7 +36,9 @@ describe 'Salaries API' do
            }).
          to_return(status: 200, body: salary_info, headers: {})
 
-			get "/api/v0/salaries?location=#{destination}"
+				 
+
+			get "/api/v0/salaries?destination=#{destination}"
 			results = JSON.parse(response.body, symbolize_names: true)
 			expect(response).to be_successful
 			expect(results.keys).to include(:data)
