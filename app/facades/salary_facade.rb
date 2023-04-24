@@ -8,7 +8,13 @@ class SalaryFacade
 		
 		salaries[:salaries].each do |salary|
 			if job_titles.include?(salary[:job][:title])
-				jobs << salary
+				min = salary[:salary_percentiles][:percentile_25]
+				max = salary[:salary_percentiles][:percentile_75]
+				jobs << {
+					title:salary[:job][:title],
+					min: sprintf("$%.2f", min),
+					max: sprintf("$%.2f", max)
+				}
 			end
 		end
 		jobs

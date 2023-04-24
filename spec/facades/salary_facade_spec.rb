@@ -17,8 +17,8 @@ RSpec.describe SalaryFacade do
 				to_return(status: 200, body: chicago_salaries, headers: {})
 
 				salaries = SalaryFacade.get_salaries(destination)
-
-				expect(salaries.keys).to include(:_links, :salaries)
+				expect(salaries.count).to eq(7)
+				expect(salaries.first.keys).to include(:job, :salary_percentiles)
 			end
 		end
 	end

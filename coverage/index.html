@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-04-24T09:30:42-06:00">2023-04-24T09:30:42-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-04-24T09:47:20-06:00">2023-04-24T09:47:20-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="red">
-  51.65%
+  51.77%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.67
+         0.71
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>364</b> relevant lines,
-    <span class="green"><b>188</b> lines covered</span> and
-    <span class="red"><b>176</b> lines missed. </span>
+    <b>367</b> relevant lines,
+    <span class="green"><b>190</b> lines covered</span> and
+    <span class="red"><b>177</b> lines missed. </span>
     (<span class="red">
-  51.65%
+  51.77%
 </span>
 )
   </div>
@@ -83,12 +83,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#b3a88447e59982a1d17e6cd334de9b67146c14b5" class="src_link" title="app/facades/salary_facade.rb">app/facades/salary_facade.rb</a></td>
-            <td class="yellow strong cell--number t-file__coverage">90.00 %</td>
-            <td class="cell--number">16</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">9</td>
+            <td class="green strong cell--number t-file__coverage">91.67 %</td>
+            <td class="cell--number">22</td>
+            <td class="cell--number">12</td>
+            <td class="cell--number">11</td>
             <td class="cell--number">1</td>
-            <td class="cell--number">6.60</td>
+            <td class="cell--number">6.67</td>
             
           </tr>
         
@@ -270,12 +270,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#3db04408df594beafed82151c4791f76f5923823" class="src_link" title="spec/facades/salary_facade_spec.rb">spec/facades/salary_facade_spec.rb</a></td>
-            <td class="yellow strong cell--number t-file__coverage">90.00 %</td>
+            <td class="yellow strong cell--number t-file__coverage">81.82 %</td>
             <td class="cell--number">25</td>
-            <td class="cell--number">10</td>
+            <td class="cell--number">11</td>
             <td class="cell--number">9</td>
-            <td class="cell--number">1</td>
-            <td class="cell--number">0.90</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">0.82</td>
             
           </tr>
         
@@ -562,8 +562,8 @@
   <div class="header">
     <h3>app/facades/salary_facade.rb</h3>
     <h4>
-      <span class="yellow">
-  90.0%
+      <span class="green">
+  91.67%
 </span>
 
       lines covered
@@ -572,8 +572,8 @@
     
 
     <div class="t-line-summary">
-      <b>10</b> relevant lines.
-      <span class="green"><b>9</b> lines covered</span> and
+      <b>12</b> relevant lines.
+      <span class="green"><b>11</b> lines covered</span> and
       <span class="red"><b>1</b> lines missed.</span>
     </div>
 
@@ -701,12 +701,78 @@
 
             
 
-            <code class="ruby">				jobs &lt;&lt; salary</code>
+            <code class="ruby">				min = salary[:salary_percentiles][:percentile_25]</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
+          <li class="covered" data-hits="7" data-linenumber="12">
+            <span class="hits">7</span>
+            
+
+            
+
+            <code class="ruby">				max = salary[:salary_percentiles][:percentile_75]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="7" data-linenumber="13">
+            <span class="hits">7</span>
+            
+
+            
+
+            <code class="ruby">				jobs &lt;&lt; {</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">					title:salary[:job][:title],</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby">					min: sprintf(&quot;$%.2f&quot;, min),</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">					max: sprintf(&quot;$%.2f&quot;, max)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby">				}</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="18">
             
             
 
@@ -717,7 +783,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="13">
+          <li class="never" data-hits="" data-linenumber="19">
             
             
 
@@ -728,7 +794,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="14">
+          <li class="covered" data-hits="1" data-linenumber="20">
             <span class="hits">1</span>
             
 
@@ -739,7 +805,7 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="15">
+          <li class="missed" data-hits="0" data-linenumber="21">
             
             
 
@@ -750,7 +816,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="16">
+          <li class="never" data-hits="" data-linenumber="22">
             
             
 
@@ -4544,7 +4610,7 @@
     <h3>spec/facades/salary_facade_spec.rb</h3>
     <h4>
       <span class="yellow">
-  90.0%
+  81.82%
 </span>
 
       lines covered
@@ -4553,9 +4619,9 @@
     
 
     <div class="t-line-summary">
-      <b>10</b> relevant lines.
+      <b>11</b> relevant lines.
       <span class="green"><b>9</b> lines covered</span> and
-      <span class="red"><b>1</b> lines missed.</span>
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
 
     
@@ -4775,13 +4841,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="20">
+          <li class="missed" data-hits="0" data-linenumber="20">
             
             
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">				expect(salaries.count).to eq(7)</code>
           </li>
         </div>
       
@@ -4792,7 +4858,7 @@
 
             
 
-            <code class="ruby">				expect(salaries.keys).to include(:_links, :salaries)</code>
+            <code class="ruby">				expect(salaries.first.keys).to include(:job, :salary_percentiles)</code>
           </li>
         </div>
       
