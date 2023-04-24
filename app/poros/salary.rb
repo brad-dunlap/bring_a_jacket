@@ -1,4 +1,5 @@
 class Salary
+	attr_accessor :id, :destination, :forecast, :salaries
 
 	def initialize(data)
 		@id = data[:id]
