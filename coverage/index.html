@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-04-24T11:06:01-06:00">2023-04-24T11:06:01-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-04-24T11:16:46-06:00">2023-04-24T11:16:46-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -469,7 +469,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#10e46b7c9f48c5f545c488305b6f3e380acde70b" class="src_link" title="spec/requests/api/v0/salaries_request_spec.rb">spec/requests/api/v0/salaries_request_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">50</td>
+            <td class="cell--number">49</td>
             <td class="cell--number">19</td>
             <td class="cell--number">19</td>
             <td class="cell--number">0</td>
@@ -1516,7 +1516,7 @@
 
             
 
-            <code class="ruby">					min: sprintf(&quot;$%.2f&quot;, min),</code>
+            <code class="ruby">					min: ActiveSupport::NumberHelper.number_to_currency(min, unit: &quot;$&quot;, precision: 2),</code>
           </li>
         </div>
       
@@ -1527,7 +1527,7 @@
 
             
 
-            <code class="ruby">					max: sprintf(&quot;$%.2f&quot;, max)</code>
+            <code class="ruby">        	max: ActiveSupport::NumberHelper.number_to_currency(max, unit: &quot;$&quot;, precision: 2)</code>
           </li>
         </div>
       
@@ -1538,7 +1538,7 @@
 
             
 
-            <code class="ruby">				}</code>
+            <code class="ruby">      }</code>
           </li>
         </div>
       
@@ -1692,7 +1692,7 @@
 
             
 
-            <code class="ruby">      temperature: weather_data[:current][:temp_f]      </code>
+            <code class="ruby">      temperature: &quot;#{weather_data[:current][:temp_f]}°F&quot;</code>
           </li>
         </div>
       
@@ -6543,7 +6543,7 @@
 
             
 
-            <code class="ruby">				expect(salaries.first[:min]).to eq(&quot;$46898.19&quot;)</code>
+            <code class="ruby">				expect(salaries.first[:min]).to eq(&quot;$46,898.19&quot;)</code>
           </li>
         </div>
       
@@ -6554,7 +6554,7 @@
 
             
 
-            <code class="ruby">				expect(salaries.first[:max]).to eq(&quot;$67929.19&quot;)</code>
+            <code class="ruby">				expect(salaries.first[:max]).to eq(&quot;$67,929.19&quot;)</code>
           </li>
         </div>
       
@@ -11576,7 +11576,7 @@
 
             
 
-            <code class="ruby">				 stub_request(:get, &quot;http://api.weatherapi.com/v1/forecast.json?days=5&amp;key=23f44e62a7b442dfa52145319232204&amp;q=41.88425,-87.63245&quot;).</code>
+            <code class="ruby">			stub_request(:get, &quot;http://api.weatherapi.com/v1/forecast.json?days=5&amp;key=23f44e62a7b442dfa52145319232204&amp;q=41.88425,-87.63245&quot;).</code>
           </li>
         </div>
       
@@ -11587,7 +11587,7 @@
 
             
 
-            <code class="ruby">         with(</code>
+            <code class="ruby">			with(</code>
           </li>
         </div>
       
@@ -11598,7 +11598,7 @@
 
             
 
-            <code class="ruby">           headers: {</code>
+            <code class="ruby">				headers: {</code>
           </li>
         </div>
       
@@ -11609,7 +11609,7 @@
 
             
 
-            <code class="ruby">          &#39;Accept&#39;=&gt;&#39;*/*&#39;,</code>
+            <code class="ruby">			&#39;Accept&#39;=&gt;&#39;*/*&#39;,</code>
           </li>
         </div>
       
@@ -11620,7 +11620,7 @@
 
             
 
-            <code class="ruby">          &#39;Accept-Encoding&#39;=&gt;&#39;gzip;q=1.0,deflate;q=0.6,identity;q=0.3&#39;,</code>
+            <code class="ruby">			&#39;Accept-Encoding&#39;=&gt;&#39;gzip;q=1.0,deflate;q=0.6,identity;q=0.3&#39;,</code>
           </li>
         </div>
       
@@ -11631,7 +11631,7 @@
 
             
 
-            <code class="ruby">          &#39;User-Agent&#39;=&gt;&#39;Faraday v2.7.4&#39;</code>
+            <code class="ruby">			&#39;User-Agent&#39;=&gt;&#39;Faraday v2.7.4&#39;</code>
           </li>
         </div>
       
@@ -11642,7 +11642,7 @@
 
             
 
-            <code class="ruby">           }).</code>
+            <code class="ruby">				}).</code>
           </li>
         </div>
       
@@ -11653,7 +11653,7 @@
 
             
 
-            <code class="ruby">         to_return(status: 200, body: weather_info, headers: {})</code>
+            <code class="ruby">			to_return(status: 200, body: weather_info, headers: {})</code>
           </li>
         </div>
       
@@ -11675,7 +11675,7 @@
 
             
 
-            <code class="ruby">				 stub_request(:get, &quot;https://api.teleport.org/api/urban_areas/slug:chicago/salaries&quot;).</code>
+            <code class="ruby">			stub_request(:get, &quot;https://api.teleport.org/api/urban_areas/slug:chicago/salaries&quot;).</code>
           </li>
         </div>
       
@@ -11686,7 +11686,7 @@
 
             
 
-            <code class="ruby">         with(</code>
+            <code class="ruby">			with(</code>
           </li>
         </div>
       
@@ -11697,7 +11697,7 @@
 
             
 
-            <code class="ruby">           headers: {</code>
+            <code class="ruby">				headers: {</code>
           </li>
         </div>
       
@@ -11708,7 +11708,7 @@
 
             
 
-            <code class="ruby">          &#39;Accept&#39;=&gt;&#39;*/*&#39;,</code>
+            <code class="ruby">			&#39;Accept&#39;=&gt;&#39;*/*&#39;,</code>
           </li>
         </div>
       
@@ -11719,7 +11719,7 @@
 
             
 
-            <code class="ruby">          &#39;Accept-Encoding&#39;=&gt;&#39;gzip;q=1.0,deflate;q=0.6,identity;q=0.3&#39;,</code>
+            <code class="ruby">			&#39;Accept-Encoding&#39;=&gt;&#39;gzip;q=1.0,deflate;q=0.6,identity;q=0.3&#39;,</code>
           </li>
         </div>
       
@@ -11730,7 +11730,7 @@
 
             
 
-            <code class="ruby">          &#39;User-Agent&#39;=&gt;&#39;Faraday v2.7.4&#39;</code>
+            <code class="ruby">			&#39;User-Agent&#39;=&gt;&#39;Faraday v2.7.4&#39;</code>
           </li>
         </div>
       
@@ -11741,7 +11741,7 @@
 
             
 
-            <code class="ruby">           }).</code>
+            <code class="ruby">				}).</code>
           </li>
         </div>
       
@@ -11752,7 +11752,7 @@
 
             
 
-            <code class="ruby">         to_return(status: 200, body: salary_info, headers: {})</code>
+            <code class="ruby">			to_return(status: 200, body: salary_info, headers: {})</code>
           </li>
         </div>
       
@@ -11768,13 +11768,13 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="39">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="39">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">				 </code>
+            
+
+            <code class="ruby">			get &quot;/api/v0/salaries?destination=#{destination}&quot;</code>
           </li>
         </div>
       
@@ -11796,7 +11796,7 @@
 
             
 
-            <code class="ruby">			get &quot;/api/v0/salaries?destination=#{destination}&quot;</code>
+            <code class="ruby">			results = JSON.parse(response.body, symbolize_names: true)</code>
           </li>
         </div>
       
@@ -11807,7 +11807,7 @@
 
             
 
-            <code class="ruby">			results = JSON.parse(response.body, symbolize_names: true)</code>
+            <code class="ruby">			expect(response).to be_successful</code>
           </li>
         </div>
       
@@ -11818,7 +11818,7 @@
 
             
 
-            <code class="ruby">			expect(response).to be_successful</code>
+            <code class="ruby">			expect(results.keys).to include(:data)</code>
           </li>
         </div>
       
@@ -11829,7 +11829,7 @@
 
             
 
-            <code class="ruby">			expect(results.keys).to include(:data)</code>
+            <code class="ruby">			expect(results[:data][:id]).to eq(&quot;null&quot;)</code>
           </li>
         </div>
       
@@ -11840,7 +11840,7 @@
 
             
 
-            <code class="ruby">			expect(results[:data][:id]).to eq(&quot;null&quot;)</code>
+            <code class="ruby">			expect(results[:data][:type]).to eq(&quot;salaries&quot;)</code>
           </li>
         </div>
       
@@ -11851,23 +11851,12 @@
 
             
 
-            <code class="ruby">			expect(results[:data][:type]).to eq(&quot;salaries&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="47">
-            <span class="hits">1</span>
-            
-
-            
-
             <code class="ruby">			expect(results[:data][:attributes].keys).to include(:destination, :forecast, :salaries)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="48">
+          <li class="never" data-hits="" data-linenumber="47">
             
             
 
@@ -11878,7 +11867,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="49">
+          <li class="never" data-hits="" data-linenumber="48">
             
             
 
@@ -11889,7 +11878,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="50">
+          <li class="never" data-hits="" data-linenumber="49">
             
             
 

@@ -12,9 +12,9 @@ class SalaryFacade
 				max = salary[:salary_percentiles][:percentile_75]
 				jobs << {
 					title:salary[:job][:title],
-					min: sprintf("$%.2f", min),
-					max: sprintf("$%.2f", max)
-				}
+					min: ActiveSupport::NumberHelper.number_to_currency(min, unit: "$", precision: 2),
+        	max: ActiveSupport::NumberHelper.number_to_currency(max, unit: "$", precision: 2)
+      }
 			end
 		end
 		jobs
@@ -28,7 +28,7 @@ class SalaryFacade
 
 		current_weather = {
       summary: weather_data[:current][:condition][:text],
-      temperature: weather_data[:current][:temp_f]      
+      temperature: "#{weather_data[:current][:temp_f]}°F"
     }
 	end
 

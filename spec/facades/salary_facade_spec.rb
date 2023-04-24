@@ -20,8 +20,8 @@ RSpec.describe SalaryFacade do
 				expect(salaries.count).to eq(7)
 				expect(salaries.first.keys).to include(:title, :min, :max)
 				expect(salaries.first[:title]).to eq("Data Analyst")
-				expect(salaries.first[:min]).to eq("$46898.19")
-				expect(salaries.first[:max]).to eq("$67929.19")
+				expect(salaries.first[:min]).to eq("$46,898.19")
+				expect(salaries.first[:max]).to eq("$67,929.19")
 			end
 
 			it 'returns weather information for destination' do
