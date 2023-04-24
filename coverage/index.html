@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-04-24T09:23:02-06:00">2023-04-24T09:23:02-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-04-24T09:30:42-06:00">2023-04-24T09:30:42-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="red">
-  51.12%
+  51.65%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.51
+         0.67
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>358</b> relevant lines,
-    <span class="green"><b>183</b> lines covered</span> and
-    <span class="red"><b>175</b> lines missed. </span>
+    <b>364</b> relevant lines,
+    <span class="green"><b>188</b> lines covered</span> and
+    <span class="red"><b>176</b> lines missed. </span>
     (<span class="red">
-  51.12%
+  51.65%
 </span>
 )
   </div>
@@ -83,12 +83,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#b3a88447e59982a1d17e6cd334de9b67146c14b5" class="src_link" title="app/facades/salary_facade.rb">app/facades/salary_facade.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">7</td>
-            <td class="cell--number">4</td>
-            <td class="cell--number">4</td>
-            <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="yellow strong cell--number t-file__coverage">90.00 %</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">10</td>
+            <td class="cell--number">9</td>
+            <td class="cell--number">1</td>
+            <td class="cell--number">6.60</td>
             
           </tr>
         
@@ -562,8 +562,8 @@
   <div class="header">
     <h3>app/facades/salary_facade.rb</h3>
     <h4>
-      <span class="green">
-  100.0%
+      <span class="yellow">
+  90.0%
 </span>
 
       lines covered
@@ -572,9 +572,9 @@
     
 
     <div class="t-line-summary">
-      <b>4</b> relevant lines.
-      <span class="green"><b>4</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>10</b> relevant lines.
+      <span class="green"><b>9</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
     </div>
 
     
@@ -629,18 +629,117 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
+          <li class="never" data-hits="" data-linenumber="5">
+            
+            
+
+            
+
+            <code class="ruby">		</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">		require &#39;pry&#39;; binding.pry</code>
+            <code class="ruby">		jobs = []</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="6">
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">		job_titles = [&quot;Data Analyst&quot;, &quot;Data Scientist&quot;, &quot;Mobile Developer&quot;, &quot;QA Engineer&quot;, &quot;Software Engineer&quot;, &quot;Systems Administrator&quot;, &quot;Web Developer&quot;]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">		</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">		salaries[:salaries].each do |salary|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="52" data-linenumber="10">
+            <span class="hits">52</span>
+            
+
+            
+
+            <code class="ruby">			if job_titles.include?(salary[:job][:title])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="7" data-linenumber="11">
+            <span class="hits">7</span>
+            
+
+            
+
+            <code class="ruby">				jobs &lt;&lt; salary</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">			end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">		end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">		jobs</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="15">
             
             
 
@@ -651,7 +750,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="7">
+          <li class="never" data-hits="" data-linenumber="16">
             
             
 
