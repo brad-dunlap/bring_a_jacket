@@ -19,4 +19,26 @@ class SalaryFacade
 		end
 		jobs
 	end
+
+	def self.get_weather(destination)
+		latlong = LocationService.new.get_location(destination).deep_symbolize_keys
+    lat = latlong[:results][0][:locations][0][:latLng][:lat]
+    long = latlong[:results][0][:locations][0][:latLng][:lng]
+    weather_data = WeatherService.new.get_weather(lat, long)
+
+		current_weather = {
+      summary: weather_data[:current][:condition][:text],
+      temperature: weather_data[:current][:temp_f]      
+    }
+	end
+
+	def self.salary_info(destination)
+		results = {
+			id: "null",
+			destination: destination,
+			forecast: get_weather(destination),
+			salaries: get_salaries(destination)
+		}
+		Salary.new(results)
+	end
 end
