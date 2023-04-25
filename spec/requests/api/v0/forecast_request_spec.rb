@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'Forecast API' do
-	describe 'GET /api/v1/forecast' do
+	describe 'GET /api/v0/forecast' do
 		it 'returns the weather for a location' do
 			location = "denver,co"
 			location_data = File.read('spec/fixtures/location.json')
