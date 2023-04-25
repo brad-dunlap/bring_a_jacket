@@ -9,22 +9,22 @@
           1,
           1,
           1,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
-          0,
+          1,
           null,
-          0,
-          null,
-          null,
+          1,
           null,
           null,
           null,
           null,
           null,
           null,
-          0,
+          null,
+          null,
+          1,
           null,
           0,
           0,
@@ -320,8 +320,13 @@
           null,
           1,
           1,
+          1,
+          1,
+          0,
+          0,
           0,
           null,
+          0,
           0,
           0,
           null,
@@ -1105,13 +1110,13 @@
         "lines": [
           1,
           1,
-          5,
+          6,
           5,
           null,
           null,
           1,
           1,
-          5,
+          6,
           null,
           null
         ]
@@ -1224,6 +1229,22 @@
           null,
           1,
           7,
+          null,
+          null
+        ]
+      },
+      "/Users/braddunlap/Desktop/turing_work/3mod/projects/bring_a_jacket/app/services/roadtrip_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
           null,
           null
         ]
@@ -1341,24 +1362,8 @@
           null,
           null
         ]
-      },
-      "/Users/braddunlap/Desktop/turing_work/3mod/projects/bring_a_jacket/app/services/roadtrip_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1682356606
+    "timestamp": 1682435084
   }
 }
