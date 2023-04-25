@@ -2,20 +2,10 @@ require 'rails_helper'
 
 describe LocationService do
   context 'instance methods' do
-    describe '#get_location' do 
+    describe '#get_location', :vcr do 
       it 'returns the lat and long of a location' do
         location = File.read('spec/fixtures/location.json')
 				api_key = ENV['MAPQUEST_API_KEY']
-
-        stub_request(:get, "https://www.mapquestapi.com/geocoding/v1/address?key=#{api_key}&location=denver,co").
-          with(
-            headers: {
-              'Accept'=>'*/*',
-              'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-              'User-Agent'=>'Faraday v2.7.4'
-            }
-          ).
-          to_return(status: 200, body: location, headers: {})
 
         location_data = LocationService.new.get_location('denver,co')
 
