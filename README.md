@@ -110,19 +110,7 @@ Additionally, the project uses several gems for development and testing, such as
 
 ### Built With
 
-* [![Rails]][Rails-url]
-* [![PostgreSQL]][PostgreSQL-url]
-* [![Puma]][Puma-url]
-* [![bcrypt]][bcrypt-url]
-* [![Faraday]][Faraday-url]
-* [![Figaro]][Figaro-url]
-* [![JSON-Serializer]][JSON-Serializer-url]
-* [![Capybara]][Capybara-url]
-* [![RSpec]][RSpec-url]
-* [![Faker]][Faker-url]
-* [![Shoulda-Matchers]][Shoulda-Matchers-url]
-* [![VCR]][VCR-url]
-* [![Web-mock]][Web-mock-url]
+[![Rails]][Rails-url][![PostgreSQL]][PostgreSQL-url][![Puma]][Puma-url][![bcrypt]][bcrypt-url][![Faraday]][Faraday-url][![Figaro]][Figaro-url][![JSON-Serializer]][JSON-Serializer-url][![Capybara]][Capybara-url][![RSpec]][RSpec-url][![Faker]][Faker-url][![Shoulda-Matchers]][Shoulda-Matchers-url][![VCR]][VCR-url][![Web-mock]][Web-mock-url]
 
 <a href="#top">Back to top</a>
 
