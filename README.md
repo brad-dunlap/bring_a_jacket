@@ -19,11 +19,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
+<p align="center">
+  <img src="https://img.shields.io/github/contributors/brad-dunlap/bring_a_jacket?style=for-the-badge" alt="Contributors">
+  <img src="https://img.shields.io/github/forks/brad-dunlap/bring_a_jacket?style=for-the-badge" alt="Forks">
+  <img src="https://img.shields.io/github/stars/brad-dunlap/bring_a_jacket?style=for-the-badge" alt="Stargazers">
+  <img src="https://img.shields.io/github/issues/brad-dunlap/bring_a_jacket?style=for-the-badge" alt="Issues">
+</p>
 
 
 <!-- PROJECT LOGO -->
@@ -38,15 +39,13 @@
   <p align="center">
     Mod 3 Final Project
     <br />
-    <a href="https://github.com/brad-dunlap/bring_a_jacket"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
        ·
     <a href="https://github.com/brad-dunlap/bring_a_jacket/issues">Report Bug</a>
     ·
     <a href="https://github.com/brad-dunlap/bring_a_jacket/issues">Request Feature</a>
   </p>
 </div>
+<br />
 
 
 
@@ -75,7 +74,7 @@
   </ol>
 </details>
 
-
+<br />
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -106,8 +105,8 @@ This project uses the following technology stack:
 Additionally, the project uses several gems for development and testing, such as Capybara, RSpec, Faker, and Shoulda Matchers.
 
 <a href="#top">Back to top</a>
-
-
+<br />
+<br />
 
 ### Built With
 
@@ -127,6 +126,8 @@ Additionally, the project uses several gems for development and testing, such as
 
 <a href="#top">Back to top</a>
 
+<br />
+<br />
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -142,6 +143,7 @@ You must have the following software installed on your system:
 * [Bundler](https://bundler.io/)
 * [PostgreSQL](https://www.postgresql.org/download/)
 
+<br />
 
 ### Installation
 
@@ -164,30 +166,39 @@ You must have the following software installed on your system:
 5. Visit http://localhost:3000 in your web browser to confirm that the app is running or use an application such as Postman to make your API calls to check the appropriate responses. 
 
 <a href="#top">Back to top</a>
-
+<br />
+<br />
 ### Database Tables
+<br />
 Users:
 ![Users_table](/images/users_table.png)
 
 See the [open issues](https://github.com/wise-app-team/wise-app-be/issues) for a full list of proposed features (and known issues).
 
 <a href="#top">Back to top</a>
-
+<br />
+<br />
 ### Requests and Responses
+<br />
+
 Weather Requests
 ![weather_request](/images/weather_request.png)
 ![weather_response](/images/weather_response.png)
-
+<br />
+<br />
 Registration Requests
 ![registration](/images/registration_request_and_response.png)
-
+<br />
+<br />
 Login Requests
 ![login](/images/login_request_and_response.png)
-
+<br />
+<br />
 RoadTrip Requests
 ![roadtrip_request](/images/roadtrip_request.png)
 ![roadtrip_response](/images/roadtrip_response.png)
-
+<br />
+<br />
 
 
 
@@ -207,6 +218,8 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <a href="#top">Back to top</a>
+<br />
+<br />
 
 <!-- CONTACT -->
 ## Contact
@@ -222,14 +235,16 @@ Don't forget to give the project a star! Thanks again!
 
 
 <a href="#top">Back to top</a>
-
+<br />
+<br />
 <!-- PROJECT MANAGER -->
 ## Project Manager
 
 * Mike Dao and Abdul Redd (instructor team)
 
 <a href="#top">Back to top</a>
-
+<br />
+<br />
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -244,20 +259,17 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/wise-app-team/wise-app-be.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/brad-dunlap/bring_a_jacket.svg?style=for-the-badge
 [contributors-url]: https://github.com/brad-dunlap/bring_a_jacket/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/wise-app-team/wise-app-be.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/brad-dunlap/bring_a_jacket.svg?style=for-the-badge
 [forks-url]: https://github.com/brad-dunlap/bring_a_jacket/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/wise-app-team/wise-app-be.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/brad-dunlap/bring_a_jacket.svg?style=for-the-badge
 [stars-url]: https://github.com/brad-dunlap/bring_a_jacket/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/wise-app-team/wise-app-be.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/brad-dunlap/bring_a_jacket.svg?style=for-the-badge
 [issues-url]: https://github.com/brad-dunlap/bring_a_jacket/issues
-
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
