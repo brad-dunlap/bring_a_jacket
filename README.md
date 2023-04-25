@@ -193,10 +193,12 @@ Registration Requests
 <br />
 <br />
 Login Requests
+
 ![login](/images/login_request_and_response.png)
 <br />
 <br />
 RoadTrip Requests
+
 ![roadtrip_request](/images/roadtrip_request.png)
 ![roadtrip_response](/images/roadtrip_response.png)
 <br />
