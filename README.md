@@ -171,6 +171,7 @@ You must have the following software installed on your system:
 ### Database Tables
 <br />
 Users:
+
 ![Users_table](/images/users_table.png)
 
 See the [open issues](https://github.com/wise-app-team/wise-app-be/issues) for a full list of proposed features (and known issues).
