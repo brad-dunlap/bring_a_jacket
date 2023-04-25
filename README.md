@@ -188,6 +188,7 @@ Weather Requests
 <br />
 <br />
 Registration Requests
+
 ![registration](/images/registration_request_and_response.png)
 <br />
 <br />
